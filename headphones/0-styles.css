@@ -1,0 +1,116 @@
+/* Reset CSS Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-color: #3498db;
+    --text-color: #333;
+    --background-color: #f9f9f9;
+    --font-family: 'Arial, sans-serif';
+    --font-size: 16px;
+}
+
+/* General Body Styling */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Hero Section */
+.hero {
+    background: url('IMG-20241006-WA0004.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+align-content: end;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Content */
+.hero-content h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: white;
+    margin: 15px 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.cta-btn:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+h1 ~ p {
+    height: 200px;
+    text-align: center;
+    
+}
+.last-div {
+    margin-top: 100px;
+    font-size: 15px;
+    color: #fff;
+  font-family: monospace;
+  text-transform: lowercase;
+  letter-spacing: -1px;
+  
+}
+.logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: yellow;
+
+}
